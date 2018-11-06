@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task_2</title>
+    <link rel="stylesheet" href="style/style.css">
+
+
+</head>
+<body>
+
+<form id="form-registration" class="form-registration" method="post">
+    <div class="container">
+        <label>Email</label>
+        <input id='email' class='input__email' type="email" placeholder="you@example.com" name="email">
+        <label>Password</label>
+        <input id="password" class='input__password' type="password" placeholder="Enter Password" name="password">
+        <label>Repeat password</label>
+        <input id="checkpassword" class='input__repeat-password' type="password" placeholder="Repeat password"
+               name="repeat password">
+        <div id="btn" class="register__button">Enter</div>
+        <button id="submit-registration" type="submit" class="submit register__button">Submit registration</button>
+    </div>
+</form>
+
+<form id="form-enter" class="form-enter" method="post">
+    <div class="container">
+        <label>Email</label>
+        <input id="email__enter" class="input__email" type="email" placeholder="enter email" name="email">
+        <label>Password</label>
+        <input id="password__enter" class='input__password' type="password" placeholder="Enter Password"
+               name="password">
+        <div id="btnEnter" class="enter__button">Registration</div>
+        <button id="submit" class="submit register__button">Submit form</button>
+    </div>
+</form>
+
+
+
+<script src="js/localstorage.js"></script>
+</body>
+</html>

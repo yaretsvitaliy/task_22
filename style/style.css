@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Griffy|Mali');
+body {
+    margin: 0;
+    font-family: 'Mali', cursive;
+}
+
+.form-registration {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+}
+
+.input__email, .input__password, .input__repeat-password {
+    border: none;
+    background: #FFF8DC;
+    height: 20px;
+    margin-bottom: 5px;
+    font-family: 'Mali', cursive;
+}
+
+.register__button, .enter__button {
+    background: #009933;
+    border: none;
+    height: 30px;
+    border-radius: 4px;
+    font-family: 'Mali', cursive;
+}
+
+.enter__button {
+    margin-top: 5px;
+    background: rgb(205, 133, 63);
+}
+
+.register__button:hover {
+    opacity: .6;
+}
+
+.form-enter {
+    display: none;
+}
+
+.form-enter-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.submit {
+    margin-top: 5px;
+    background: #708090;
+}
